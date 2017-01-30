@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/king601/devise-bootstrapped.git
+  revision: 152ef108593758f4c93d0e303e9f2a545371fe43
+  specs:
+    devise-bootstrapped (0.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,8 +45,13 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (6.0.4)
+    autoprefixer-rails (6.7.1)
+      execjs
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     byebug (9.0.6)
     coffee-rails (4.1.1)
@@ -160,8 +171,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
+  devise-bootstrapped!
   jbuilder (~> 2.0)
   jquery-rails
   mini_racer

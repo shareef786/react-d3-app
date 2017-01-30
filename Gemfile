@@ -47,3 +47,5 @@ end
 # Added Gems
 gem "react_on_rails", "~> 6"
 gem 'mini_racer', platforms: :ruby
+gem 'bootstrap-sass'
+gem 'devise-bootstrapped', github: 'king601/devise-bootstrapped'
